@@ -1,5 +1,5 @@
-angular.module('ngNephila.filters.titlecase', [])
-.filter('nphTitlecase', function() {
+angular.module('ngRamen.filters.titlecase', [])
+.filter('rmnTitlecase', function() {
   return function(s, onlyFirst) {
     s = ( s === undefined || s === null ) ? '' : s;
     onlyFirst = ( onlyFirst === undefined || onlyFirst === null ) ? false : onlyFirst;

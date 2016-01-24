@@ -1,10 +1,10 @@
 describe('Filter: titlecase', function () {
 
-  beforeEach(module('ngNephila.filters.titlecase'));
+  beforeEach(module('ngRamen.filters.titlecase'));
 
   var titlecase;
   beforeEach(inject(function($filter) {
-    titlecase = $filter('nphTitlecase');
+    titlecase = $filter('rmnTitlecase');
   }));
 
   it('has a titlecase filter', function () {

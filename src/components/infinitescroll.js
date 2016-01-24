@@ -1,8 +1,8 @@
-angular.module('ngNephila.components.infinitescroll', [
-  'ngNephila.services.scrolledInContainer'
+angular.module('ngRamen.components.infinitescroll', [
+  'ngRamen.services.scrolledInContainer'
 ])
-.directive('nphInfiniteScroll', [
-  '$window', '$rootScope', 'nphScrolledInContainer', function($window, $rootScope, nphScrolledInContainer) {
+.directive('rmnInfiniteScroll', [
+  '$window', '$rootScope', 'rmnScrolledInContainer', function($window, $rootScope, rmnScrolledInContainer) {
     return {
       restrict: 'E',
       scope: {
@@ -19,7 +19,7 @@ angular.module('ngNephila.components.infinitescroll', [
           if (scope.ngIf() === false) {
             return;
           }
-          reached = nphScrolledInContainer(elem[0], container[0]);
+          reached = rmnScrolledInContainer(elem[0], container[0]);
           if (reached && !visible) {
             visible = true;
             if (scope.$$phase || $rootScope.$$phase) {

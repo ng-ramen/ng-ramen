@@ -14,11 +14,11 @@ responsiveVoice = {
 
 describe('Service: tts', function () {
 
-  beforeEach(module('ngNephila.services.tts'));
+  beforeEach(module('ngRamen.services.tts'));
 
-  beforeEach(inject(function (_nphTts_, _$timeout_, _$rootScope_) {
+  beforeEach(inject(function (_rmnTts_, _$timeout_, _$rootScope_) {
     $rootScope = _$rootScope_;
-    tts = _nphTts_;
+    tts = _rmnTts_;
     $timeout = _$timeout_;
   }));
 

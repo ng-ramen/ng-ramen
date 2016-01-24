@@ -1,5 +1,5 @@
-angular.module('ngNephila', [
-  'ngNephila.filters',
-  'ngNephila.services',
-  'ngNephila.components'
+angular.module('ngRamen', [
+  'ngRamen.filters',
+  'ngRamen.services',
+  'ngRamen.components'
 ]);

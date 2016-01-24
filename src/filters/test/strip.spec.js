@@ -1,10 +1,10 @@
 describe('Filter: strip', function () {
 
-  beforeEach(module('ngNephila.filters.strip'));
+  beforeEach(module('ngRamen.filters.strip'));
 
   var stripFilter;
   beforeEach(inject(function($filter) {
-    stripFilter = $filter('nphStrip');
+    stripFilter = $filter('rmnStrip');
   }));
 
   it('has a strip filter', function () {

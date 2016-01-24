@@ -1,11 +1,11 @@
 describe('Service: scrolled-in-container', function () {
 
-  beforeEach(module('ngNephila.services.scrolledInContainer'));
+  beforeEach(module('ngRamen.services.scrolledInContainer'));
 
   var scrolledInContainer;
 
-  beforeEach(inject(function (_nphScrolledInContainer_) {
-    scrolledInContainer = _nphScrolledInContainer_;
+  beforeEach(inject(function (_rmnScrolledInContainer_) {
+    scrolledInContainer = _rmnScrolledInContainer_;
   }));
 
   it('should fucking work', function () {

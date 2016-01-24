@@ -1,7 +1,7 @@
-angular.module('ngNephila.components.modal', [
-  'ngNephila.tpls.modal.modal'
+angular.module('ngRamen.components.modal', [
+  'ngRamen.tpls.modal.modal'
 ])
-.directive('nphModal', function() {
+.directive('rmnModal', function() {
   return {
     restrict: 'E',
     scope: {

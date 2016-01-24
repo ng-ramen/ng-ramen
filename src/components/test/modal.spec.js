@@ -2,13 +2,13 @@ describe('Component: modal', function() {
 
   var element, $scope, $compile, $timeout;
 
-  beforeEach(module('ngNephila.components.modal'));
+  beforeEach(module('ngRamen.components.modal'));
 
   beforeEach(inject(function(_$compile_, _$rootScope_, _$timeout_) {
     $compile = _$compile_;
     $scope = _$rootScope_.$new();
     $timeout = _$timeout_;
-    element = angular.element('<nph-modal show="modalShown"><p>Modal Content Goes here</p></nph-modal>');
+    element = angular.element('<rmn-modal show="modalShown"><p>Modal Content Goes here</p></rmn-modal>');
   }));
 
   it('should fucking work', function () {

@@ -1,8 +1,10 @@
-angular.module('ngNephila.components.tabsaccordion', [])
-.directive('nphTabsaccordion', function() {
+angular.module('ngRamen.components.tabsaccordion', [])
+.directive('rmnTabsaccordion', function() {
   return {
     restrict: 'E',
-    scope: {},
+    scope: {
+      alwaysAccordion: '@'
+    },
     transclude: true,
     replace: true,
     controller: function($scope) {
@@ -39,7 +41,7 @@ angular.module('ngNephila.components.tabsaccordion', [])
     template: '<div ng-transclude></div>',
   };
 })
-.directive('nphTabheaders', function() {
+.directive('rmnTabheaders', function() {
   return {
     restrict: 'E',
     scope: {},
@@ -54,7 +56,7 @@ angular.module('ngNephila.components.tabsaccordion', [])
     template: '<ul class="tab-headers" ng-transclude></ul>',
   };
 })
-.directive('nphTabcontents', function() {
+.directive('rmnTabcontents', function() {
   return {
     restrict: 'E',
     scope: {},
@@ -68,13 +70,13 @@ angular.module('ngNephila.components.tabsaccordion', [])
     template: '<div class="tab-contents" ng-transclude></div>',
   };
 })
-.directive('nphTabheader', function() {
+.directive('rmnTabheader', function() {
   return {
     scope: {
       ref: '@',
       selected: '='
     },
-    require: '^nphTabsaccordion',
+    require: '^rmnTabsaccordion',
     restrict: 'E',
     transclude: true,
     replace: true,
@@ -98,12 +100,12 @@ angular.module('ngNephila.components.tabsaccordion', [])
     template: '<li ng-class="{\'tab-active\':selected}"><a href="#{{ref}}" ng-transclude></a></li>',
   };
 })
-.directive('nphTabcontent', ['$sce', function($sce) {
+.directive('rmnTabcontent', ['$sce', function($sce) {
   return {
     scope: {
       ref: '@'
     },
-    require: '^nphTabsaccordion',
+    require: '^rmnTabsaccordion',
     restrict: 'E',
     transclude: true,
     replace: true,

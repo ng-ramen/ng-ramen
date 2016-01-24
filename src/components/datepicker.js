@@ -1,7 +1,7 @@
-angular.module('ngNephila.components.datePicker', [
-  'ngNephila.tpls.datepicker.datepicker'
+angular.module('ngRamen.components.datePicker', [
+  'ngRamen.tpls.datepicker.datepicker'
 ])
-.directive('nphDatePicker', ['$document', function($document) {
+.directive('rmnDatePicker', ['$document', function($document) {
   return {
     restrict: 'E',
     scope: {

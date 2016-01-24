@@ -17,6 +17,6 @@ release-bower:
 
 register-bower:
 	cd bower_pkg && \
-	bower register ng-nephila git://github.com/nephila/bower-ng-nephila.git
+	bower register ng-ramen git://github.com/astagi/bower-ng-ramen.git
 
 release: release-lib release-bower

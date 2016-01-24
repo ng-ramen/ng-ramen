@@ -7,7 +7,7 @@ describe('Component: datePicker', function() {
     'July', 'August', 'September', 'October', 'November', 'December'
   ];
 
-  beforeEach(module('ngNephila.components.datePicker'));
+  beforeEach(module('ngRamen.components.datePicker'));
 
   beforeEach(inject(function(_$compile_, _$rootScope_, _$timeout_, _$document_) {
     $compile = _$compile_;
@@ -15,7 +15,7 @@ describe('Component: datePicker', function() {
     $timeout = _$timeout_;
     $document = _$document_;
 
-    element = angular.element('<nph-date-picker ng-model="myDate" view-format="DD MMMM YYYY"></nph-date-picker>');
+    element = angular.element('<rmn-date-picker ng-model="myDate" view-format="DD MMMM YYYY"></rmn-date-picker>');
   }));
 
   it('should show correct data on showCalendar', function () {
@@ -37,7 +37,7 @@ describe('Component: datePicker', function() {
     expect(isolated.dayNames).toEqual(
       ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
     );
-    element = angular.element('<nph-date-picker first-week-day-sunday="true" ng-model="myDate" view-format="DD MMMM YYYY"></nph-date-picker>');
+    element = angular.element('<rmn-date-picker first-week-day-sunday="true" ng-model="myDate" view-format="DD MMMM YYYY"></rmn-date-picker>');
     element = $compile(element)($scope);
     $scope.$digest();
     isolated = element.isolateScope();
@@ -56,7 +56,7 @@ describe('Component: datePicker', function() {
     expect(isolated.dayNames).toEqual(
       ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
     );
-    element = angular.element('<nph-date-picker ng-model="myDate" locale="it" view-format="DD MMMM YYYY"></nph-date-picker>');
+    element = angular.element('<rmn-date-picker ng-model="myDate" locale="it" view-format="DD MMMM YYYY"></rmn-date-picker>');
     element = $compile(element)($scope);
     $scope.$digest();
     isolated = element.isolateScope();

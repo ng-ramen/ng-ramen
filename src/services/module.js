@@ -1,7 +1,7 @@
-angular.module('ngNephila.services', [
-  'ngNephila.services.pagination',
-  'ngNephila.services.debounce',
-  'ngNephila.services.scrolledInContainer',
-  'ngNephila.services.tts',
-  'ngNephila.services.pathJoin'
+angular.module('ngRamen.services', [
+  'ngRamen.services.pagination',
+  'ngRamen.services.debounce',
+  'ngRamen.services.scrolledInContainer',
+  'ngRamen.services.tts',
+  'ngRamen.services.pathJoin'
 ]);

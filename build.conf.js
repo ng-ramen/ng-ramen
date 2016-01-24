@@ -3,9 +3,9 @@ var pkg = require('./package.json');
 
 module.exports = {
   banner: '/*!\n' +
-    ' * ngNephila\n' +
+    ' * ngRamen\n' +
     ' * v' + pkg.version +'\n' +
-    ' * Copyright 2015 Nephila http://nephila.it/\n' +
+    ' * Copyright 2016 Andrea Stagi stagi.andrea@gmail.com/\n' +
     ' * See LICENSE in this repository for license information\n' +
     ' */\n',
 
@@ -14,7 +14,7 @@ module.exports = {
 
   dist: 'dist',
   demo : {
-    ngNephila : 'demo/lib/ngNephila/dist',
+    ngRamen : 'demo/lib/ngRamen/dist',
     lib : 'demo/lib',
     www : 'demo'
   },

@@ -2,7 +2,7 @@ describe('Component: infinite-scroll', function() {
 
   var element, $scope, $compile, $timeout, $window;
 
-  beforeEach(module('ngNephila.components.infinitescroll'));
+  beforeEach(module('ngRamen.components.infinitescroll'));
 
   beforeEach(inject(function(_$compile_, _$rootScope_, _$timeout_, _$window_) {
     $compile = _$compile_;
@@ -10,7 +10,7 @@ describe('Component: infinite-scroll', function() {
     $timeout = _$timeout_;
     $window = _$window_;
 
-    element = angular.element('<nph-infinite-scroll on-infinite="callbacks.loadMore()" ng-if="callbacks.moreDataCanBeLoaded()"></nph-infinite-scroll>');
+    element = angular.element('<rmn-infinite-scroll on-infinite="callbacks.loadMore()" ng-if="callbacks.moreDataCanBeLoaded()"></rmn-infinite-scroll>');
     $scope.callbacks = {
       loadMore: function() {
       },

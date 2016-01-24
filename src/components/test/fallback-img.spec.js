@@ -2,13 +2,13 @@ describe('Component: fallback-img', function() {
 
   var element, $scope, $compile;
 
-  beforeEach(module('ngNephila.components.fallbackImg'));
+  beforeEach(module('ngRamen.components.fallbackImg'));
 
   beforeEach(inject(function(_$compile_, _$rootScope_) {
     $compile = _$compile_;
     $scope = _$rootScope_.$new();
 
-    element = angular.element('<img ng-src="" nph-fallback-img="img/nocover.png">');
+    element = angular.element('<img ng-src="" rmn-fallback-img="img/nocover.png">');
 
   }));
 

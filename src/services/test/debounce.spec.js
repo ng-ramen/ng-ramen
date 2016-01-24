@@ -1,11 +1,11 @@
 describe('Service: debounce', function () {
 
-  beforeEach(module('ngNephila.services.debounce'));
+  beforeEach(module('ngRamen.services.debounce'));
 
   var debounce, $timeout;
 
-  beforeEach(inject(function (_nphDebounce_,  _$timeout_) {
-    debounce = _nphDebounce_;
+  beforeEach(inject(function (_rmnDebounce_,  _$timeout_) {
+    debounce = _rmnDebounce_;
     $timeout = _$timeout_;
   }));
 

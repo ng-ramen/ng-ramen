@@ -1,5 +1,5 @@
-angular.module('ngNephila.services.tts', [])
-.factory('nphTts', ['$q', function($q) {
+angular.module('ngRamen.services.tts', [])
+.factory('rmnTts', ['$q', function($q) {
   var ready = false;
   var readyCallback;
   var q;

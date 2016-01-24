@@ -1,7 +1,7 @@
-angular.module('ngNephila.filters', [
-  'ngNephila.filters.range',
-  'ngNephila.filters.titlecase',
-  'ngNephila.filters.stripHtml',
-  'ngNephila.filters.strip',
-  'ngNephila.filters.path'
+angular.module('ngRamen.filters', [
+  'ngRamen.filters.range',
+  'ngRamen.filters.titlecase',
+  'ngRamen.filters.stripHtml',
+  'ngRamen.filters.strip',
+  'ngRamen.filters.path'
 ]);

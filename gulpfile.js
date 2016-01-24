@@ -44,7 +44,7 @@ gulp.task('html2js', function () {
         var path = file.path.split('/'),
             folder = path[path.length - 2],
             fileName = path[path.length - 1].split('.')[0];
-        var name = 'ngNephila.tpls.' + folder;
+        var name = 'ngRamen.tpls.' + folder;
         return name + '.' + fileName;
       },
       prefix: "template/"
@@ -57,17 +57,17 @@ gulp.task('html2js', function () {
 
 gulp.task('build-dist', function () {
   return gulp.src(buildConfig.pluginFiles)
-    .pipe(concat('ng-nephila.js'))
+    .pipe(concat('ng-ramen.js'))
     .pipe(header(buildConfig.closureStart))
     .pipe(footer(buildConfig.closureEnd))
     .pipe(header(buildConfig.banner))
     .pipe(gulp.dest(buildConfig.dist))
-    .pipe(gulp.dest(buildConfig.demo.ngNephila))
+    .pipe(gulp.dest(buildConfig.demo.ngRamen))
     .pipe(uglify())
     .pipe(header(buildConfig.banner))
     .pipe(rename({extname: '.min.js'}))
     .pipe(gulp.dest(buildConfig.dist))
-    .pipe(gulp.dest(buildConfig.demo.ngNephila));
+    .pipe(gulp.dest(buildConfig.demo.ngRamen));
 });
 
 gulp.task('build', function () {

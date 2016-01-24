@@ -1,10 +1,10 @@
-var app = angular.module('demo', ['ngNephila']);
+var app = angular.module('demo', ['ngRamen']);
 
-app.config(function(nphPaginationProvider) {
-  nphPaginationProvider.setItemsPerPage(5);
+app.config(function(rmnPaginationProvider) {
+  rmnPaginationProvider.setItemsPerPage(5);
 });
 
-app.controller('demoCtrl', function($scope, $timeout, nphPagination, nphTts) {
+app.controller('demoCtrl', function($scope, $timeout, rmnPagination, rmnTts) {
   $scope.myText = 'the last good day of the year';
   $scope.myHtmlText = '<p>the last <b>good day</b> of the <i>year</i></p>';
   $scope.loadCount = 0;
@@ -25,7 +25,7 @@ app.controller('demoCtrl', function($scope, $timeout, nphPagination, nphTts) {
   }
 
   $scope.startSpeaking = function () {
-    nphTts.speak("Hi man! How are you? Hope fine!")
+    rmnTts.speak("Hi man! How are you? Hope fine!")
     .then(function() {
       console.log("SPEAK DONE!");
     }, function(err) {
@@ -34,7 +34,7 @@ app.controller('demoCtrl', function($scope, $timeout, nphPagination, nphTts) {
   }
 
   $scope.stopSpeaking = function () {
-    nphTts.stop();
+    rmnTts.stop();
   }
 
   $scope.moreDataCanBeLoaded = function () {

@@ -1,10 +1,10 @@
 describe('Filter: path', function () {
 
-  beforeEach(module('ngNephila.filters.path'));
+  beforeEach(module('ngRamen.filters.path'));
 
   var pathFilter;
   beforeEach(inject(function($filter) {
-    pathFilter = $filter('nphPath');
+    pathFilter = $filter('rmnPath');
   }));
 
   it('has a path filter', function () {

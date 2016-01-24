@@ -1,10 +1,10 @@
-angular.module('ngNephila.components', [
-  'ngNephila.components.infinitescroll',
-  'ngNephila.components.fallbackImg',
-  'ngNephila.components.paginator',
-  'ngNephila.components.toggle',
-  'ngNephila.components.datePicker',
-  'ngNephila.components.modal',
-  'ngNephila.components.tabsaccordion',
-  'ngNephila.components.focusMe'
+angular.module('ngRamen.components', [
+  'ngRamen.components.infinitescroll',
+  'ngRamen.components.fallbackImg',
+  'ngRamen.components.paginator',
+  'ngRamen.components.toggle',
+  'ngRamen.components.datePicker',
+  'ngRamen.components.modal',
+  'ngRamen.components.tabsaccordion',
+  'ngRamen.components.focusMe'
 ]);

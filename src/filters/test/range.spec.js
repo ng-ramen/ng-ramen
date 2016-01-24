@@ -1,10 +1,10 @@
 describe('Filter: range', function () {
 
-  beforeEach(module('ngNephila.filters.range'));
+  beforeEach(module('ngRamen.filters.range'));
 
   var range;
   beforeEach(inject(function($filter) {
-    range = $filter('nphRange');
+    range = $filter('rmnRange');
   }));
 
   it('has a range filter', function () {

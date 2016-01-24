@@ -2,7 +2,7 @@ describe('Component: toggle', function() {
 
   var element, $scope, $compile;
 
-  beforeEach(module('ngNephila.components.toggle'));
+  beforeEach(module('ngRamen.components.toggle'));
 
   beforeEach(inject(function(_$compile_, _$rootScope_) {
     $compile = _$compile_;
@@ -10,7 +10,7 @@ describe('Component: toggle', function() {
   }));
 
   it('should fucking work', function () {
-    element = angular.element('<div nph-toggle>Toggle</div>');
+    element = angular.element('<div rmn-toggle>Toggle</div>');
     element = $compile(element)($scope);
     $scope.$digest();
     $(element).trigger('click');
@@ -18,7 +18,7 @@ describe('Component: toggle', function() {
   });
 
   it('should set state when passed as attribute', function () {
-    element = angular.element('<div nph-toggle state="true">Toggle</div>');
+    element = angular.element('<div rmn-toggle state="true">Toggle</div>');
     element = $compile(element)($scope);
     $scope.$digest();
     $(element).trigger('click');
@@ -26,7 +26,7 @@ describe('Component: toggle', function() {
   });
 
   it('should set the class that we want', function () {
-    element = angular.element('<div nph-toggle toggle-class="boom">Toggle</div>');
+    element = angular.element('<div rmn-toggle toggle-class="boom">Toggle</div>');
     element = $compile(element)($scope);
     $scope.$digest();
     $(element).trigger('click');
@@ -36,7 +36,7 @@ describe('Component: toggle', function() {
   });
 
   it('should change the internal state', function () {
-    element = angular.element('<div nph-toggle state="true">Toggle</div>');
+    element = angular.element('<div rmn-toggle state="true">Toggle</div>');
     element = $compile(element)($scope);
     $scope.$digest();
     var isolated = element.isolateScope();

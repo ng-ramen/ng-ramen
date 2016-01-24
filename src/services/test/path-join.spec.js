@@ -1,11 +1,11 @@
 describe('Service: path-join', function () {
 
-  beforeEach(module('ngNephila.services.pathJoin'));
+  beforeEach(module('ngRamen.services.pathJoin'));
 
   var pathJoin;
 
-  beforeEach(inject(function (_nphPathJoin_) {
-    pathJoin = _nphPathJoin_;
+  beforeEach(inject(function (_rmnPathJoin_) {
+    pathJoin = _rmnPathJoin_;
   }));
 
   it('should fucking work', function () {

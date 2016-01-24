@@ -1,13 +1,13 @@
 describe('Service: pagination', function () {
 
-  beforeEach(module('ngNephila.services.pagination'));
+  beforeEach(module('ngRamen.services.pagination'));
 
   var pProvider;
   var paginatorFactory;
 
   beforeEach(function(){
-    module(function(nphPaginationProvider){
-      pProvider = nphPaginationProvider;
+    module(function(rmnPaginationProvider){
+      pProvider = rmnPaginationProvider;
       paginatorFactory = pProvider.$get();
     });
   });

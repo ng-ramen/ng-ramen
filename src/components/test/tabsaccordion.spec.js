@@ -2,22 +2,22 @@ describe('Component: tabsaccordion', function() {
 
   var element, $scope, $compile, $timeout;
 
-  beforeEach(module('ngNephila.components.tabsaccordion'));
+  beforeEach(module('ngRamen.components.tabsaccordion'));
 
   beforeEach(inject(function(_$compile_, _$rootScope_, _$timeout_) {
     $compile = _$compile_;
     $scope = _$rootScope_.$new();
     $timeout = _$timeout_;
-    var element_html = '<nph-tabsaccordion>' +
-    '<nph-tabheaders>' +
-    '<nph-tabheader selected="true" ref="tab1"><p>Tab 1</p><div>Tab 1</div></nph-tabheader>' +
-    '<nph-tabheader ref="tab2"><p>Tab 2</p><div>Tab 2</div></nph-tabheader>' +
-    '</nph-tabheaders>' +
-    '<nph-tabcontents>' +
-    '<nph-tabcontent ref="tab1">Content 1</nph-tabcontent>' +
-    '<nph-tabcontent ref="tab2">Content 2</nph-tabcontent>' +
-    '</nph-tabcontents>' +
-    '</nph-tabsaccordion>';
+    var element_html = '<rmn-tabsaccordion>' +
+    '<rmn-tabheaders>' +
+    '<rmn-tabheader selected="true" ref="tab1"><p>Tab 1</p><div>Tab 1</div></rmn-tabheader>' +
+    '<rmn-tabheader ref="tab2"><p>Tab 2</p><div>Tab 2</div></rmn-tabheader>' +
+    '</rmn-tabheaders>' +
+    '<rmn-tabcontents>' +
+    '<rmn-tabcontent ref="tab1">Content 1</rmn-tabcontent>' +
+    '<rmn-tabcontent ref="tab2">Content 2</rmn-tabcontent>' +
+    '</rmn-tabcontents>' +
+    '</rmn-tabsaccordion>';
     element = angular.element(element_html);
   }));
 
