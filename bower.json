@@ -1,15 +1,14 @@
 {
-  "name": "ng-nephila",
-  "version": "0.0.4",
-  "main": "./ng-nephila.min.js",
-  "homepage": "https://github.com/nephila/ng-nephila",
+  "name": "ng-ramen",
+  "version": "0.0.1",
+  "main": "./ng-ramen.min.js",
+  "homepage": "https://github.com/astagi/ng-ramen",
   "authors": [
     {
-      "name": "Nephila",
-      "homepage": "http://nephila.it"
+      "name": "Andrea Stagi",
     }
   ],
-  "description": "Collection of reusable UI components for AngularJS.",
+  "description": "A variety of Ramen made by AngularJS filters, components and services",
   "devDependencies": {
     "angular": "^1.4.1",
     "angular-mocks": "^1.4.1",
