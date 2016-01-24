@@ -1,10 +1,10 @@
 {
-  "name": "ng-nephila",
+  "name": "ng-ramen",
   "private": false,
-  "main": "dist/ng-nephila",
-  "version": "0.0.4",
+  "main": "dist/ng-ramen",
+  "version": "0.0.1",
   "repository": {
-    "url": "git://github.com/nephila/ng-nephila.git"
+    "url": "git://github.com/astagi/ng-ramen.git"
   },
   "devDependencies": {
     "coveralls": "^2.11.2",
