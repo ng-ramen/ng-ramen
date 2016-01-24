@@ -1,29 +1,25 @@
-# ngNephila
+# ngRamen
 
-![Bower version](https://img.shields.io/bower/v/ng-nephila.svg)
-[![Build Status](https://secure.travis-ci.org/nephila/ng-nephila.svg)](https://travis-ci.org/nephila/ng-nephila) [![Coverage Status](https://coveralls.io/repos/nephila/ng-nephila/badge.svg?branch=master)](https://coveralls.io/r/nephila/ng-nephila?branch=master)
+![Bower version](https://img.shields.io/bower/v/ng-ramen.svg)
+[![Build Status](https://secure.travis-ci.org/astagi/ng-ramen.svg)](https://travis-ci.org/astagi/ng-ramen) [![Coverage Status](https://coveralls.io/repos/astagi/ng-ramen/badge.svg?branch=master)](https://coveralls.io/r/astagi/ng-ramen?branch=master)
 
-Collection of reusable components for [AngularJS](https://angularjs.org/)
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/astagi/mystatics/master/ng-nephila/ngnephila-small.png"/>
-</p>
+A variety of Ramen made by [AngularJS](https://angularjs.org/) filters, components and services
 
 ## Quick start
 
 Installing via [Bower](bower)
 ```
-bower install ng-nephila
+bower install ng-ramen
 ```
 
 Include the required bower component:
 ``` html
-<script src="ng-nephila/ng-nephila.min.js"></script>
+<script src="ng-ramen/ng-ramen.min.js"></script>
 ```
 
-Inject the `ngNephila` module into your app:
+Inject the `ngRamen` module into your app:
 ``` JavaScript
-angular.module('myAwesomeApp', ['ngNephila']);
+angular.module('myAwesomeApp', ['ngRamen']);
 ```
 
 ## Development
