@@ -5,6 +5,10 @@
 
 A variety of Ramen made by [AngularJS](https://angularjs.org/) filters, components and services
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/astagi/mystatics/master/ng-ramen/ngramen-small.png"/>
+</p>
+
 ## Quick start
 
 Installing via [Bower](bower)
