@@ -1,6 +1,7 @@
 # ngRamen
-
+<!---
 ![Bower version](https://img.shields.io/bower/v/ng-ramen.svg)
+-->
 [![Build Status](https://secure.travis-ci.org/ng-ramen/ng-ramen.svg)](https://travis-ci.org/ng-ramen/ng-ramen) [![Coverage Status](https://coveralls.io/repos/github/ng-ramen/ng-ramen/badge.svg?branch=master)](https://coveralls.io/github/ng-ramen/ng-ramen?branch=master)
 
 A variety of Ramen made by [AngularJS](https://angularjs.org/) filters, components and services
@@ -10,12 +11,12 @@ A variety of Ramen made by [AngularJS](https://angularjs.org/) filters, componen
 </p>
 
 ## Quick start
-
+<!---
 Installing via [Bower](bower)
 ```
 bower install ng-ramen
 ```
-
+-->
 Include the required bower component:
 ``` html
 <script src="ng-ramen/ng-ramen.min.js"></script>
