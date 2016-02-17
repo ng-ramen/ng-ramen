@@ -1,7 +1,7 @@
 # ngRamen
 
 ![Bower version](https://img.shields.io/bower/v/ng-ramen.svg)
-[![Build Status](https://secure.travis-ci.org/astagi/ng-ramen.svg)](https://travis-ci.org/astagi/ng-ramen) [![Coverage Status](https://coveralls.io/repos/astagi/ng-ramen/badge.svg?branch=master)](https://coveralls.io/r/astagi/ng-ramen?branch=master)
+[![Build Status](https://secure.travis-ci.org/ng-ramen/ng-ramen.svg)](https://travis-ci.org/ng-ramen/ng-ramen) [![Coverage Status](https://coveralls.io/repos/ng-ramen/ng-ramen/badge.svg?branch=master)](https://coveralls.io/r/ng-ramen/ng-ramen?branch=master)
 
 A variety of Ramen made by [AngularJS](https://angularjs.org/) filters, components and services
 
