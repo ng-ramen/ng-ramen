@@ -3,7 +3,7 @@ angular.module('ngRamen.components.toggle',[])
   return {
     restrict: 'AE',
     scope: {
-      state: '=',
+      state: '=?',
     },
     link: function(scope, element, attrs) {
       var toggleClass = attrs.toggleClass;

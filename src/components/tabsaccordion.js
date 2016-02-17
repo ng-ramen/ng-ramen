@@ -74,7 +74,7 @@ angular.module('ngRamen.components.tabsaccordion', [])
   return {
     scope: {
       ref: '@',
-      selected: '='
+      selected: '=?'
     },
     require: '^rmnTabsaccordion',
     restrict: 'E',

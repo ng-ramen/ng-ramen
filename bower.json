@@ -5,7 +5,7 @@
   "homepage": "https://github.com/astagi/ng-ramen",
   "authors": [
     {
-      "name": "Andrea Stagi",
+      "name": "Andrea Stagi"
     }
   ],
   "description": "A variety of Ramen made by AngularJS filters, components and services",
